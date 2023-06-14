@@ -2,7 +2,7 @@ name: charts_common
 version: 0.12.0
 description: A common library for charting packages.
 homepage: https://github.com/google/charts
-
+publish_to: none
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
