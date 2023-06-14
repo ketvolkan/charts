@@ -1,10 +1,6 @@
 # 0.12.0
-* Expose `NumericScale`, `LinearScale` and `ScaleSpec`
-* Add functions to draw horizontal or vertical links.
-* Added more padding options.
-* Create `AutoAdjustingStatickTickProvider` for bar charts.
-* Add generic graph class initializers.
-* Add ingoing and outgoing node links and toSeriesList conversion.
+* Add functions to draw horizontal or vertical links onto the dart charts web canvas.
+* Add "preserveSelection" functionality to InitialSelection chart Behavior.
 * Bug fixes.
 
 # 0.11.0
@@ -52,11 +48,16 @@ that does not match the secondary measure axis id. This affects users implementi
 using the existing method.
 
 # 0.4.0
+* Fixed export file to export ChartsBehavior in the Flutter library instead of the one that resides
+in charts_common. The charts_common behavior should not be used except internally in the
+charts_flutter library. This is a breaking change if you are using charts_common behavior.
 * Declare compatibility with Dart 2.
-* BasicNumericTickFormatterSpec now takes in a callback instead of NumberFormat as the default constructor. Use named constructor withNumberFormat instead. This is a breaking change.
-* BarRendererConfig is no longer default of type String, please change current usage to BarRendererConfig<String>. This is a breaking change.
-* BarTargetLineRendererConfig is no longer default of type String, please change current usage to BarTargetLineRendererConfig<String>. This is a breaking change.
-
+* BasicNumericTickFormatterSpec now takes in a callback instead of NumberFormat as the default
+constructor. Use named constructor withNumberFormat instead. This is a breaking change.
+* BarRendererConfig is no longer default of type String, please change current usage to
+BarRendererConfig<String>. This is a breaking change.
+* BarTargetLineRendererConfig is no longer default of type String, please change current usage to
+BarTargetLineRendererConfig<String>. This is a breaking change.
 
 # 0.3.0
 * Simplified API by removing the requirement for specifying the datum type when creating a chart.
