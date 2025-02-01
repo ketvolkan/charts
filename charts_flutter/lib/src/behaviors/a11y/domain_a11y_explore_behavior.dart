@@ -19,7 +19,7 @@ import 'package:charts_common/common.dart' as common
         DomainA11yExploreBehavior,
         VocalizationCallback,
         ExploreModeTrigger;
-import 'package:flutter/widgets.dart' show hashValues;
+import 'package:flutter/widgets.dart' show Object.hash;
 import '../chart_behavior.dart' show ChartBehavior, GestureType;
 
 /// Behavior that generates semantic nodes for each domain.
@@ -110,7 +110,7 @@ class DomainA11yExploreBehavior<D> extends ChartBehavior<D> {
 
   @override
   int get hashCode {
-    return hashValues(minimumWidth, vocalizationCallback, exploreModeTrigger,
+    return Object.hash(minimumWidth, vocalizationCallback, exploreModeTrigger,
         exploreModeEnabledAnnouncement, exploreModeDisabledAnnouncement);
   }
 }
