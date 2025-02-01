@@ -28,7 +28,7 @@ import 'package:charts_common/common.dart' as common
         TextStyleSpec;
 import 'package:collection/collection.dart' show ListEquality;
 import 'package:flutter/widgets.dart'
-    show BuildContext, EdgeInsets, Widget, Object.hash;
+    show BuildContext, EdgeInsets, Widget;
 import 'package:meta/meta.dart' show immutable;
 import '../../chart_container.dart' show ChartContainerRenderObject;
 import '../chart_behavior.dart'

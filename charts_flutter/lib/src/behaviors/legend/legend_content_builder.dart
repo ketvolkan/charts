@@ -15,7 +15,7 @@
 
 import 'package:charts_common/common.dart' as common
     show Legend, LegendState, SeriesLegend;
-import 'package:flutter/widgets.dart' show BuildContext, Object.hash, Widget;
+import 'package:flutter/widgets.dart' show BuildContext, Widget;
 import 'legend.dart';
 import 'legend_entry_layout.dart';
 import 'legend_layout.dart';

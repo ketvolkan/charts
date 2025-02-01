@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'dart:ui' show Object.hash;
+import 'dart:ui';
 import 'package:charts_common/common.dart' as common show Color, TextStyle;
 
 class TextStyle implements common.TextStyle {
