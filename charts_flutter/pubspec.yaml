@@ -19,7 +19,7 @@ dependencies:
       url: https://github.com/ketvolkan/charts
       ref: master
       path: charts_common
-  collection: ^1.19.0
+  collection: ^1.18.0
   flutter:
     sdk: flutter
   intl: any
